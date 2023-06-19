@@ -4,6 +4,7 @@ body {
   padding: 0;
   font-family: "Rubik", sans-serif;
   background-color: #eef0f4;
+  color: #432000;
 }
 
 .container {
@@ -40,6 +41,10 @@ button {
   text-align: center;
   font-family: "Rubik", sans-serif;
 }
+button:hover {
+  background-color: #432000;
+  cursor: pointer;
+}
 
 ul {
   display: flex;
@@ -57,4 +62,9 @@ ul li {
   border-radius: 8px;
   flex-grow: 1;
   text-align: center;
+}
+
+ul li:hover {
+  background-color: #ffecc7;
+  cursor: pointer;
 }
