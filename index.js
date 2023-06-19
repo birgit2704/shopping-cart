@@ -30,9 +30,13 @@ addButtonEl.addEventListener("click", function () {
 });
 
 onValue(shoppingListInDB, function (snapshot) {
-  let storedItems = Object.entries(snapshot.val());
-  clearShoppingListEl();
-  storedItems.forEach((item) => addItemToShoppingListEl(item));
+  if (snapshot.exists()) {
+    let storedItems = Object.entries(snapshot.val());
+    clearShoppingListEl();
+    storedItems.forEach((item) => addItemToShoppingListEl(item));
+  } else {
+    shoppingListEl.innerHTML = "No items here";
+  }
 });
 
 function clearShoppingListEl() {
