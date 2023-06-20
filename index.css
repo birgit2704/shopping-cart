@@ -1,20 +1,20 @@
 :root {
   /* original colors:  */
-  /* --main-bg-color: #eef0f4;
+  --main-bg-color: #eef0f4;
   --input-bg-color: #dce1eb;
   --button-bg-color: #ac485a;
   --li-bg-color: #fffdf8;
   --main-text-color: #432000;
   --button-text-color: #fdfdfd;
-  --li-hover-color: #ffecc7; */
+  --li-hover-color: #ffecc7;
 
-  --main-bg-color: #d8f3dc;
+  /* --main-bg-color: #d8f3dc;
   --input-bg-color: #74c69d;
   --button-bg-color: #2d6a4f;
   --li-bg-color: #dabfae;
   --main-text-color: #1b4332;
   --button-text-color: #b7e4c7;
-  --li-hover-color: #d9a98c;
+  --li-hover-color: #d9a98c; */
 }
 
 html,
